@@ -21,15 +21,16 @@ body {
 }
 .corner-text {
   position: absolute;
-  top: 15px;
+  top: 20px;
   left: 20px;
   color: white;
   font-family: 'Pacifico', cursive;
   z-index: 9999;
 
-  /* Texto adaptable */
-  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  /* Más grande y adaptable */
+  font-size: clamp(2rem, 6vw, 3rem);
 }
+
 
 
 .night {
@@ -1996,6 +1997,7 @@ body {
     opacity: 1;
   }
 }
+
 
 
 
