@@ -28,6 +28,16 @@ body {
   font-family: 'Pacifico', cursive; 
   z-index: 9999;
 }
+
+/* Ajuste automático en pantallas pequeñas */
+@media (max-width: 600px) {
+  .corner-text {
+    font-size: 1.2rem;   /* más pequeño en móvil */
+    top: 8px;            
+    left: 12px;          
+  }
+}
+
 .night {
   position: fixed;
   left: 50%;
@@ -1992,4 +2002,5 @@ body {
     opacity: 1;
   }
 }
+
 
