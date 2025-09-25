@@ -19,6 +19,15 @@ body {
   overflow: hidden;
   perspective: 1000px;
 }
+.corner-text {
+  position: absolute;
+  top: 10px;     /* espacio desde arriba */
+  left: 15px;    /* espacio desde la izquierda */
+  color: white;
+  font-size: 1.8rem; 
+  font-family: 'Pacifico', cursive; 
+  z-index: 9999;
+}
 .night {
   position: fixed;
   left: 50%;
@@ -1983,3 +1992,4 @@ body {
     opacity: 1;
   }
 }
+
